@@ -5,7 +5,7 @@ variable "input" {
 
 resource "random_pet" "server" {
   length = 2
-  prefix = "module-03"
+  prefix = "v2-module-03"
 }
 
 output "ret" {
